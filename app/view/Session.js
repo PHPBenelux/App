@@ -2,6 +2,8 @@ Ext.define('PhpBnl.view.Session', {
     extend: 'Ext.Panel',
     xtype: 'session',
     config: {
+        layout: 'vbox',
+        scrollable: true,
         items: [
             {
                 xtype: 'toolbar',
@@ -19,11 +21,10 @@ Ext.define('PhpBnl.view.Session', {
                 ]
             },
             {
-                xtype: 'dataview',
+                xtype: 'panel',
                 id: 'sessionDetail',
-                scrollable: true,
-                layout: 'vbox',
-                data: {},
+                styleHtmlContent: true,
+                data: [],
                 tpl: [
                     '<div><h3>{name}</h3>',
                     '<strong>Time: </strong>{time}<br>',
@@ -38,7 +39,7 @@ Ext.define('PhpBnl.view.Session', {
                 xtype: 'button',
                 text: 'Add to My Tracklist',
                 id: 'addbutton',
-                align: 'right'
+                margin: 10
             }
         ]
     }

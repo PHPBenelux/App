@@ -9,7 +9,6 @@ Ext.define('PhpBnl.model.Schedule', {
         {name: 'speakerBio', type: 'string' },
         {name: 'speakerImage', type: 'string' }
     ],
-    idProperty: 'day_id',
     proxy: {
         type: 'ajax',
         url: 'data/schedule27.json',
