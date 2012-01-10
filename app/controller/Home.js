@@ -83,9 +83,12 @@ Ext.define('PhpBnl.controller.Home', {
         if (!this.sessionView) {
             this.sessionView = this.getSessionView().create();
         }
-        Ext.ComponentQuery.query('#sessionToolbar')[0].setTitle(record.data.name);
+        Ext.Viewport.getLayout().setAnimation({
+            type: 'slide'
+        });
+        var title = Ext.util.Format.ellipsis(record.data.name,15,false);
+        Ext.ComponentQuery.query('#sessionToolbar')[0].setTitle(title);
         Ext.ComponentQuery.query('#sessionDetail')[0].setData(record.data);
-
         Ext.Viewport.setActiveItem(this.sessionView);
     },
 

@@ -23,31 +23,40 @@ Ext.define('PhpBnl.view.About', {
                     'is well known around the world by both it\'s speakers and it\'s visitors.</p>',
                     '<h3>Sponsors 2012</h3>',
                     '<ul>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/sugarcrm/" onclick="hsLink(this);">Sugar CRM</a></li>',
-                    '    <li><a href="http://www.combell.com/" onclick="hsLink(this);">Combell</a></li>',
-                    '    <li><a href="http://www.enrise.com/" onclick="hsLink(this);">Enrise</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/microsoft/" onclick="hsLink(this);">Microsoft</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/amazium/" onclick="hsLink(this);">Amazium</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/dx-solutions/" onclick="hsLink(this);">DX Solutions</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/10gen/" onclick="hsLink(this);">Mongo DB</a></li>',
-                    '    <li><a href="http://www.netlash-bseen.be/" onclick="hsLink(this);">Netlash bSeen</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/openminds/" onclick="hsLink(this);">Openminds</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/techademy/" onclick="hsLink(this);">TechAdemy</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/easytobook-com/" onclick="hsLink(this);">Easy to book</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/in2it-vof-professional-php-services/" onclick="hsLink(this);">In2it</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/inventis/" onclick="hsLink(this);">Inventis</a></li>',
-                    '    <li><a href="http://www.cu.be/" onclick="hsLink(this);">Cu.be</a></li>',
-                    '    <li><a href="http://www.ibuildings.com/" onclick="hsLink(this);">Ibuildings</a></li>',
-                    '    <li><a href="http://www.myupcoming.com/" onclick="hsLink(this);">MyUpcoming.com</a></li>',
-                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/orchestra/" onclick="hsLink(this);">Orchestra</a></li>',
-                    '    <li><a href="http://www.phparch.com/" onclick="hsLink(this);">PHP|Architect</a></li>',
-                    '    <li><a href="http://www.zend.com/" onclick="hsLink(this);">Zend</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/sugarcrm/">Sugar CRM</a></li>',
+                    '    <li><a href="http://www.combell.com/">Combell</a></li>',
+                    '    <li><a href="http://www.enrise.com/">Enrise</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/microsoft/">Microsoft</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/amazium/">Amazium</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/dx-solutions/">DX Solutions</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/10gen/">Mongo DB</a></li>',
+                    '    <li><a href="http://www.netlash-bseen.be/">Netlash bSeen</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/openminds/">Openminds</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/techademy/">TechAdemy</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/easytobook-com/">Easy to book</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/in2it-vof-professional-php-services/">In2it</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/inventis/">Inventis</a></li>',
+                    '    <li><a href="http://www.cu.be/">Cu.be</a></li>',
+                    '    <li><a href="http://www.ibuildings.com/">Ibuildings</a></li>',
+                    '    <li><a href="http://www.myupcoming.com/">MyUpcoming.com</a></li>',
+                    '    <li><a href="http://conference.phpbenelux.eu/2012/sponsors/orchestra/">Orchestra</a></li>',
+                    '    <li><a href="http://www.phparch.com/">PHP|Architect</a></li>',
+                    '    <li><a href="http://www.zend.com/">Zend</a></li>',
                     '</ul>',
                     '<h3>This app</h3>',
                     '<p>This app has been created by ',
-                    '<a href="http://www.martindekeijzer.nl" onclick="hsLink(this);">Martin de Keijzer</a> ',
-                    '<p>&copy; 2011 PHPBenelux User Group</p>'
-                ).html
+                    '<a href="http://www.martindekeijzer.nl">Martin de Keijzer</a> ',
+                    '<p>&copy; 2011/2012 PHPBenelux User Group</p>'
+                ),
+                listeners: {
+                    painted: function() {
+                        Ext.select('a').each(function(el) {
+                            el.dom.addEventListener('click', function(el){
+                                window.location = el.href;
+                            }, false);
+                        });
+                    }
+                }
             }
         ]
     }

@@ -17,7 +17,11 @@ Ext.define('PhpBnl.view.Schedule', {
                         xtype: 'list',
                         grouped: true,
                         store: 'Schedule',
-                        itemTpl: '{name} ({speaker})'
+                        itemTpl: new Ext.XTemplate(
+                            '{name}&nbsp;',
+                            '<tpl if="speaker != \'\'">',
+                            '({speaker})',
+                            '</tpl>')
                     },
                     {
                         title: 'January 28',
@@ -25,8 +29,11 @@ Ext.define('PhpBnl.view.Schedule', {
                         xtype: 'list',
                         grouped: true,
                         store: 'Schedule',
-                        itemTpl: '{name} ({speaker})',
-                        onItemDisclosure: true
+                        itemTpl: new Ext.XTemplate(
+                            '{name}&nbsp;',
+                            '<tpl if="speaker != \'\'">',
+                            '({speaker})',
+                            '</tpl>')
                     }
                 ]
             }

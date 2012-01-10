@@ -10,28 +10,28 @@
             "name"      : "Symfony 2",
             "time"      : "09:00 - 12:30",
             "speaker"   : "Fabien Potencier",
-            "room"      : "Permeke 1",
-            "talkAbstract" : "No Abstract available yet",
+            "room"      : "Combell room",
+            "talkAbstract" : "",
             "speakerBio": "Fabien Potencier discovered the Web in 1994, at a time when connecting to the Internet was still associated with the harmful strident sounds of a modem. Being a developer by passion, he immediately started to build websites with Perl. But with the release of PHP 5, he decided to switch focus to PHP, and created the symfony framework project in 2004 to help his company leverage the power of PHP for its customers. Fabien is a serial-entrepreneur, and among other companies, he created Sensio, a services and consulting company specialized in web technologies and Internet marketing, in 1998. Fabien is also the creator of several other Open-Source projects, a writer, a blogger, a speaker at international conferences, and a happy father of two wonderful kids.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/fabien-potencier.jpg"
         },
         {
             "name"      : "Mobile for PHP",
             "time"      : "09:00 - 12:30",
             "speaker"   : "Ivo Jansch",
-            "room"      : "Permeke 2",
+            "room"      : "Enrise room",
             "talkAbstract" : "Mobile is hot. If you’re building websites that don’t work on a mobile device, you’re missing out on an increasingly large target audience. Web consumption is no longer constrained to desktops and laptops, we have access to information from anywhere, anytime. In this tutorial Ivo will teach you the basics of optimizing websites for mobile devices such as phones and tablets. We will also look at the app side of things – creating APIs in PHP to access our information from native mobile apps and optimizing them to cope with the limits of mobile devices and wireless network connections.",
             "speakerBio": "Ivo Jansch is one of the founders of Egeniq.com, a mobile technology company based in Utrecht. He is one of the architects and developers of the Tiqr authentication application for Android and iPhone (http://tiqr.org). Ivo focuses on software architecture and best practices in mobile app development. He has authored 2 books and is a regular speaker at conferences (previous presentations and books can be found on http://www.jansch.nl).",
-            "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/08/Ivo-Jansch.jpg"
+            "speakerImage" : "resources/images/ivo-jansch.jpg"
         },
         {
             "name"      : "Zend Framework 2",
             "time"      : "09:00 - 12:30",
             "speaker"   : "Matthew Weier O'Phinney",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "In this workshop, we'll explore Zend Framework 2, building a small application to demonstrate a number of its features. During the course of the workshop, we'll explore the new ZF2 MVC layer, the module manager, the EventManager, Dependency Injection, and more. Bring your laptops, and be prepared to follow along!",
             "speakerBio": "Matthew is Project Lead for Zend Framework, and has been contributing to the project since before the initial preview release. He is an advocate for Open Source Software and regularly blogs and speaks on Zend Framework and PHP best practice topics.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/matthew-weier-o-phinney.jpg"
         },
         {
             "name"      : "HTML 5 for PHP Developers",
@@ -47,8 +47,8 @@
             "time"      : "09:00 - 12:30",
             "speaker"   : "TBA",
             "room"      : "Bach",
-            "talkAbstract" : "No Abstract available yet",
-            "speakerBio": "No bio available yet",
+            "talkAbstract" : "",
+            "speakerBio": "",
             "speakerImage" : "resources/images/phpbnl2012.png"
         },
         {
@@ -61,7 +61,7 @@
             "name"      : "Welcome & Opening",
             "time"      : "13:20 - 13:30",
             "speaker"   : "PHPBenelux Team",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Opening of the conference",
             "speakerBio": "The PHPBenelux crew welcomes you all to our 2012 edition.",
             "speakerImage" : "resources/images/phpbnl2012.png"
@@ -70,16 +70,16 @@
             "name"      : "How To Stand On The Shoulders Of Giants",
             "time"      : "13:30 - 14:30",
             "speaker"   : "Ian Barber",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Every great breakthrough is built on the work that has come before it. The most successful innovators in our industry ignore the conventional wisdom of the moment and draw on the rich history of computing, the internet and the web to transform the simplest of ideas into defining pieces of technology. As software engineers, we all have the potential to navigate the history of our industry, tease out the genius from what has come before, and build a platform for our own ideas. By doing so, we can see that little bit further and in turn provide the foundations for others to build on what we have done. In this session we’ll look at how the history of the web itself is rooted in sharing information and how modern giants like Google and Facebook are founded on what came before them, while being driven forwards by the ecosystems they helped build. We’ll see how successful open source projects leverage the past, and how by following some simple principles we can make use of the information, projects and people around us to improve ourselves and our careers.",
             "speakerBio": "Ian Barber is the development manager for the Virgin Group digital team in London, a regular conference speaker, and occasional blogger. Ian has been working with PHP since 2002, maintains the PHP Support Vector Machine extension, and is involved with several open source projects, particularly the messaging library ZeroMQ. His site at http://phpir.com covers machine learning, search, natural language processing and other interesting subjects.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/ian-barber.png"
         },
         {
             "name"      : "Security audits as an integral part of PHP application development",
             "time"      : "14:40 - 15:40",
             "speaker"   : "Sijmen Ruwhof",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "More often than not, web applications start off as a bright idea, which is then brought into realization at a fast and furious pace, with little eye for anything but result. Once all envisioned functionality is incorporated in the design and the project is launched, developers will be assigned to the next project. Notwithstanding a few bug fixes, the final - yet essential - step of software development is more often than not, omitted: the security audit. Despite the fact that these checks are regarded as tedious and superfluous, practice shows that it is time well spent: numerous, often severe vulnerabilities come to light. In his presentation, Sijmen Ruwhof will detail how to incorporate security checks into the software development process. He will also step through the implementation, and caveats of a security audit. Ruwhof works for Secundity as a security analyst specialized in PHP audits.",
             "speakerBio": "Sijmen Ruwhof is expert op het gebied van website beveiliging en tevens eigenaar van Secundity. Secundity heeft zich gespecialiseerd in het uitvoeren van beveiligingsaudits op webapplicaties.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/Foto-Sijmen-Ruwhof-130x130-transparant%20(09-10-11-09-55-04).png"
@@ -88,19 +88,19 @@
             "name"      : "Large-Scale Data Processing with Hadoop and PHP",
             "time"      : "14:40 - 15:40",
             "speaker"   : "David Zülke",
-            "room"      : "Permeke 2",
+            "room"      : "Enrise room",
             "talkAbstract" : "The MapReduce framework promises to make computing of large sets of data very easy. An original approach, it offers excellent scalability across many computing nodes, and can easily be integrated with existing systems. This session will give an introduction to the basic techniques and ideas behind MapReduce, followed by a live demo showing how to use Apache Hadoop and how to interface it with PHP.",
             "speakerBio": "David Zülke is the lead developer of the Agavi project, an open source MVC framework for PHP, and managing director at Bitextender GmbH, a Munich, Germany based software company. He has been doing PHP development for more than ten years and regularly speaks at conferences around the world about lovely topics like HTTP, REST, CouchDB, MapReduce and, of course, PHP.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/david-zulke.jpg"
         },
         {
-            "name"      : "PHP in the Dark",
+            "name"      : "Masterizing PHP Data Structure 102",
             "time"      : "14:40 - 15:40",
-            "speaker"   : "Jeroen Keppens",
-            "room"      : "Permeke 1",
-            "talkAbstract" : "PHP in the Dark teaches you the dark secrets of php on the command line. The talk covers 4 topics: We start of with simple shell scripts: how to handle options and interactive input, output, but also how to layout them with newt and ncursus. Next we cover how to properly create daemons, avoid zombie scripts, use angel scripts and how to monitor your scripts. We then move to parallel processing and inter-process communication. Often wrongly referred to as multi-threading in php. Finally we'll talk about distribution strategies to offload your scripts to multiple servers using 0mq, gearman,...",
-            "speakerBio": "Jeroen Keppens has been passionate about PHP and MySQL for over 10 years now. He has worked for various big online companies in the stock trading, gambling and telecom sector. The past few years, he held positions with mixed responsibilities as team leader, senior developer and scrum master. Jeroen is a Zend and Zend Framework Certified Engineer and certified MySQL5 developer. He likes to share his experiences with Zend Framework, MySQL, etc… on his blog.",
-            "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/DSC_5340-small%20(09-09-11-09-48-57).png"
+            "speaker"   : "Patrick Allaert",
+            "room"      : "Combell room",
+            "talkAbstract" : "We all have certainly learned data structures at school: arrays, lists, sets, stacks, queues (LIFO/FIFO), heaps, associative arrays, trees, ... and what do we mostly use in PHP? The \"array\"! In most cases, we do everything and anything with it but we stumble upon it when profiling code. During this session, we'll learn again to use the structures appropriately, leaning closer on the way to employ arrays, the SPL and other structures from PHP extensions as well.",
+            "speakerBio": "I'm a long time Free and Open Source Software evangelist that started with PHP in the late 90's.",
+            "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/Patrick_Allaert%20(10-16-11-01-00-41).png"
         },
         {
             "name"      : "SugarCRM track",
@@ -120,7 +120,7 @@
             "name"      : "HTTP is your architecture",
             "time"      : "16:00 - 17:00",
             "speaker"   : "Kore Nordmann",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Like it or hate it, the web is all about HTTP. While many people see HTTP as a big limitation, you should turn the tables and see it as your best friend! This session gives you an insight into the architectural principles of HTTP, which are important to know and seize for normal web sites, as they are for RESTful web services. See why your app might not even be HTTP compliant and what you can gain, if it is.",
             "speakerBio": "Kore Nordmann graduated in 2010 with a degree in computer science (University).He managed and manages different open source projects, like Arbit, PHPillow,VCS-Wrapper and others. Some of them can be found on his website, on Ohloh orgithub. During the last years he presented on national and internationalconferences and published several articles and books. In 2010 I founded theQafoo GmbH - passion for software quality - together with Tobias Schlitt andManuel Pichler, in which he provides Consulting & Training aiming for bettersoftware quality.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/kore%20(10-14-11-06-17-09).jpeg"
@@ -129,7 +129,7 @@
             "name"      : "PHAR, the PHP .exe format",
             "time"      : "16:00 - 17:00",
             "speaker"   : "Helgi Thorbjoernsson",
-            "room"      : "Permeke 2",
+            "room"      : "Enrise room",
             "talkAbstract" : "Learn about what the PHAR (PHP Archives) format is all about. A PHAR is conceptually similar to a Java JAR but made to fit PHP's needs. Hear how to use it to distribute your product to clients, why open source projects have started offering their projects as a PHAR file, run your application directly from the PHAR container without extracting anything to the filesystem, secure it using the signature feature to ensure the container hasn't been tampered with and many other interesting features. By the end of it you will be wanting to use PHAR for CLI and Web apps alike!",
             "speakerBio": "Helgi is an Icelander transplanted in Ireland, working as the VP of Engineering and partner at Echolibre, an Irish company that prides it self of helping startups realise their dreams. In his spare time Helgi is a PEAR extraordinaire, author, lecturer and passionate about anything performance related. Currently all his attention is divided between the PEAR installer, Pyrus and FRAPI. Helgi frequently gives talks at various PHP and Web conferences around the world as well as writing articles for print and web magazines alike.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/JDK_9205-20110525%20(09-29-11-07-21-18).jpg"
@@ -138,48 +138,48 @@
             "name"      : "PHP and MongoDB",
             "time"      : "16:00 - 17:00",
             "speaker"   : "Derick Rethans",
-            "room"      : "Permeke 1",
+            "room"      : "Combell room",
             "talkAbstract" : "This talk introduces the nosql database MongoDB and how to use it from PHP. This talk will cover inserting, updates, querying from both single servers as well as replicated servers. We'll also cover some tips on designing schemas.",
             "speakerBio": "Derick Rethans has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, the mcrypt, date and input-filter extensions, bug fixes, additions and leading the QA team. He’s a frequent lecturer at conferences, the author of php|architect’s Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. Derick works as an independent contractor doing various PHP related jobs while focussing on internals and extensions. In his spare time he likes to travel, hike, ski and practise photography.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/derick-rethans.jpg"
         },
         {
             "name"      : "Micro-frameworks: Why should you care?",
             "time"      : "17:10 - 18:10",
             "speaker"   : "Fabien Potencier",
-            "room"      : "Auditorium",
+            "room"      : "Microsoft room",
             "talkAbstract" : "A full-stack framework allows developers to build better and easy to maintain websites. It is a great tool to use for big projects and big teams, but what about smaller projects? Does it still make sense to use a framework? Of course, using a framework will give you a structure and many built-in features, but what about getting rid of the perceived complexity? Enter micro-frameworks.",
             "speakerBio": "Fabien Potencier discovered the Web in 1994, at a time when connecting to the Internet was still associated with the harmful strident sounds of a modem. Being a developer by passion, he immediately started to build websites with Perl. But with the release of PHP 5, he decided to switch focus to PHP, and created the symfony framework project in 2004 to help his company leverage the power of PHP for its customers. Fabien is a serial-entrepreneur, and among other companies, he created Sensio, a services and consulting company specialized in web technologies and Internet marketing, in 1998. Fabien is also the creator of several other Open-Source projects, a writer, a blogger, a speaker at international conferences, and a happy father of two wonderful kids.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/fabien-potencier.jpg"
         },
         {
             "name"      : "Magic Behind the Numbers - Software Metrics In Practice",
             "time"      : "17:10 - 18:10",
             "speaker"   : "Sebastian Marek",
-            "room"      : "Permeke 2",
+            "room"      : "Enrise room",
             "talkAbstract" : "We use static code analysis tools more often these days that create great reports and funky graphs. But do we understand what it all means? Software metrics tends to be magic numbers for a lot of people, but they don’t really have to be. Seb will introduce you to a few basic, the most popular software metrics and tools. He will explain to you what they mean and how you can use them to produce better software.",
             "speakerBio": "Sebastian Marek has nearly 10 years of experience in PHP. He’s a Software Architect at Plusnet a Sheffield-based ISP, now part of the BT Group. During his 5+ years journey with Plusnet, he has migrated a multi-gigabyte codebase from CVS to git, helped set up the continuous integration environment as part of a long-term drive towards Test-Driven Development and is currently working on tools to support automated software deployment and continuous integration platform. Seb has a deep love for git and in his free time he occasionally contributes to opensource software like PHPUnit, phpUnderControl and Sonar. He’s also a medieval ‘freak’ who wants to live in a castle and wear full plate armour.",
-            "speakerImage" : "resources/images/phpbnl2012.png"
+            "speakerImage" : "resources/images/sebastian-marek.jpg"
         },
         {
-            "name"      : "Masterizing PHP Data Structure 102",
+            "name"      : "An introduction to Phing the PHP build system",
             "time"      : "17:10 - 18:10",
-            "speaker"   : "Patrick Allaert",
-            "room"      : "Permeke 1",
-            "talkAbstract" : "We all have certainly learned data structures at school: arrays, lists, sets, stacks, queues (LIFO/FIFO), heaps, associative arrays, trees, ... and what do we mostly use in PHP? The \"array\"! In most cases, we do everything and anything with it but we stumble upon it when profiling code. During this session, we'll learn again to use the structures appropriately, leaning closer on the way to employ arrays, the SPL and other structures from PHP extensions as well.",
-            "speakerBio": "I'm a long time Free and Open Source Software evangelist that started with PHP in the late 90's.",
-            "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/Patrick_Allaert%20(10-16-11-01-00-41).png"
+            "speaker"   : "Jeremy Coates",
+            "room"      : "Combell room",
+            "talkAbstract" : "An insight into the Phing build system for PHP, why and how you might use it along with where it sits with related tools such as PHPUnit, PHP Code Sniffer, PHP Mess Detector etc. We will also take a brief look at how Phing can integrate with Continuous Integration, taking Jenkins as our example. We will also be including some simple practical demos of Phing in action!",
+            "speakerBio": "Jeremy Coates is Managing Director of Magma Digital Ltd who recently released the PEAR channel aggregator http://pyri.me/ He also is the founder of PHPNW, the PHP user group and conference in Manchester, UK. Jeremy's PHP experience spans over 13 years from small business to enterprise and he has integrated PHP with everything from mainframe systems to more modern APIs. His passion is for increasing professionalism within the web sector and encouraging developers to challenge themselves daily. To that end, his most recent venture is the launch of Codejo (Coding Dojo), a hands-on event where developers learn coding approaches or Katas to improve their skills.",
+            "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/12/2011-09-27-at-14-36-28-200x200.jpg"
         },
         {
             "name"      : "Ibuildings - Snacks/sandwiches/drinks/beer tasting/ fries",
             "time"      : "19:00 - 21:00",
-            "speaker"   : "PHPBenelux",
+            "speaker"   : "Ibuildings",
             "speakerImage" : "resources/images/phpbnl2012.png"
         },
         {
             "name"      : "Enrise - Bowling/ Conference social",
             "time"      : "20:00 - 23:00",
-            "speaker"   : "PHPBenelux",
+            "speaker"   : "Enrise",
             "speakerImage" : "resources/images/phpbnl2012.png"
         }
     ]

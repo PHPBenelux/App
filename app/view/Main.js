@@ -14,7 +14,7 @@ Ext.define('PhpBnl.view.Main', {
         items: [
             {xtype: 'home'},
             {xtype: 'schedule'},
-            {xtype: 'mytracklist'},
+//            {xtype: 'mytracklist'},
             {xtype: 'travel'},
             {xtype: 'about'}
         ]
