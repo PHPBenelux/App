@@ -5,6 +5,6 @@ Ext.Loader.setConfig({
 Ext.application({
     name: 'PhpBnl',
     controllers: ['Home'],
-    models: ['Room', 'Schedule', 'Talk', 'Tracklist']
+    models: ['Schedule', 'Tracklist']
     
 });

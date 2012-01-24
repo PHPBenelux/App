@@ -13,7 +13,6 @@ $picker-bar-gradient: $base-gradient !default;
 
   .x-sheet.x-picker {
     padding: 0;
-    z-index: 110 !important;
   }
 
   .x-sheet.x-picker .x-sheet-inner {
@@ -56,6 +55,7 @@ $picker-bar-gradient: $base-gradient !default;
 
       &:last-child {
         .x-body {
+          border-left: 0;
           border-right: 0;
         }
       }
