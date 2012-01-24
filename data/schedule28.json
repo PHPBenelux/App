@@ -12,7 +12,7 @@
             "name"      : "Modular application architecture",
             "time"      : "09:00 - 10:00",
             "speaker"   : "Kore Nordmann",
-            "room"      : "Microsoft room",
+            "room"      : "Enrise room",
             "talkAbstract" : "Modularity is one of the most desired non-functional aspects in software development. But beside high quality code, you need extension points so you can easily plug in additional custom modules. This talk will show and compare theory and real life approaches from the PHP world in this direction.",
             "speakerBio": "Nordmann graduated in 2010 with a degree in computer science (University).He managed and manages different open source projects, like Arbit, PHPillow,VCS-Wrapper and others. Some of them can be found on his website, on Ohloh orgithub. During the last years he presented on national and internationalconferences and published several articles and books. In 2010 I founded theQafoo GmbH – passion for software quality – together with Tobias Schlitt andManuel Pichler, in which he provides Consulting & Training aiming for bettersoftware quality.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/kore%20(10-14-11-06-17-09).jpeg"
@@ -21,7 +21,7 @@
             "name"      : "Adding real-time to your apps with WebSockets",
             "time"      : "09:00 - 10:00",
             "speaker"   : "Igor Wiedler",
-            "room"      : "Combell room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Todays web applications have come a far way since the early days of static pages. Ajax has made it possible for them to become a lot more responsive and in many cases enhance user interaction. Now the next revolution is about to happen. The upcoming W3C WebSockets standard will enable bi-directional communication between the browser and the server. In this talk you will learn how to use WebSockets to enhance your existing applications. I will show you how to use socket.io in node.js to dispatch events to the browser in near real-time. You will learn how you can already use it today.",
             "speakerBio": "Igor Wiedler has been a contributor to phpBB for over five years, currently as a core developer. He recently joined the Symfony community and made several contributions to the Symfony2 core. He also became co-developer of the Silex microframework after making some major contributions, including writing the documentation.<br><br>Igor lives in Winterthur, Switzerland and can be reached via twitter (@igorwesome).",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/me2%20(10-03-11-08-13-54).jpg"
@@ -30,7 +30,7 @@
             "name"      : "Redis – Your advanced in-memory key-value store",
             "time"      : "09:00 - 10:00",
             "speaker"   : "Jordi Boggiano",
-            "room"      : "Enrise room",
+            "room"      : "Combell room",
             "talkAbstract" : "Most of the NoSQL movement happened around the Map/Reduce type of storage, while Redis, mostly unknown, shines by it's simplicity. It is an in-memory database that (unlike Memcached) persists the data to disk to survive failures. It can help scale up write-heavy applications, but also serves as a great tool to understand how most databases work and learn to think in lower level storage terms.",
             "speakerBio": "Jordi Boggiano is the author of a few open source apps/libs (Slippy, php-console, Monolog, ..), and frequent contributor to other OSS projects (Symfony2, Twig, Doctrine2 and others). He has been involved in web development for about 10 years, working mostly with PHP and JavaScript, and has recently jumped the shark and created his own company, Nelmio. You can find his blog and contact details on http://seld.be.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/avatar-med-sq%20(09-17-11-10-49-24).jpg"
@@ -39,7 +39,7 @@
             "name"      : "Estimation or, “How to Dig you own Grave”",
             "time"      : "10:10 - 11:10",
             "speaker"   : "Rowan Merewood",
-            "room"      : "Microsoft room",
+            "room"      : "Enrise room",
             "talkAbstract" : "Clients need to know how much a project will cost. Waterfall development is always late and over-budget. Agile development is done when it's done. You're left with estimates that you know are too low and then you squeeze them anyway. It shouldn't be this way. We'll look at how this happens, early warning signs, ways out and ways of avoiding it in the first place.",
             "speakerBio": "Rowan Merewood is a Software Engineer with Ibuildings living in Sheffield. He’s been working commercially with PHP for over 4 years, with particular experience in the ISP industry using the language for everything from simple web pages up to large scale billing applications. Before PHP he was working with Python and Java and holds a Master’s degree in Software Engineering. Outside of the office, Rowan manages to make a semi-regular trek over to the PHPNW meet-ups and you can also find him on Twitter as @rowan_m or view the occasional experiment on his blog at merewood.org.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/Rowan_2_bw%20(10-06-11-09-01-44).jpg"
@@ -48,7 +48,7 @@
             "name"      : "Enterprise Class Cloud for the Average Joe",
             "time"      : "10:10 - 11:10",
             "speaker"   : "Craig Kitterman",
-            "room"      : "Combell room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Okay, you just got “slash dotted”. Users are pouring into your site and you need to scale out and fast to handle the increased load. Traffic is coming from all four corners of the globe and sending all the images and videos and other media assets in your site from a single data center in Western Europe to potential new customers in São Paulo, Brazil is going to cause frustration due to network latency across the Atlantic. You aren’t worried because you know that with a few clicks all the new users are experiencing your site in its full glory and are having a great experience. When the rush is over, you simply make a few more clicks to spin down that capacity – or only some of it as you have a new set of customers who believe in you. Windows Azure makes it possible for all PHP developers to use Microsoft’s global network of data centers to put your enterprise hat on – anytime – even if only for a short while.",
             "speakerBio": "Craig Kitterman is a Senior Technical Evangelist in the Microsoft Interoperability Strategy team at Microsoft. His team is chartered to create & drive the Interoperability Initiative across the company. Craig is responsible for engaging with the global developer community to drive awareness of Microsoft interoperability activity including technical bridges to Microsoft products and services. Additionally, Craig is responsible for driving understanding and awareness inside of Microsoft as to needs of the developer community; he collaborates daily with technical leaders across Microsoft product groups as well as the legal and standards groups to ensure the community voice is heard. Craig has over 13 years of experience in software engineering and technology strategy and enjoys the study of technology trends – his current interests include open government, cloud computing and social media. Craig holds a B.S. in Computer Science from Western Washington University and an M.B.A. from the University of Washington.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/craig%20(10-13-11-06-29-20).jpg"
@@ -57,7 +57,7 @@
             "name"      : "The state of DI in PHP",
             "time"      : "10:10 - 11:10",
             "speaker"   : "Stephan Hochdörfer",
-            "room"      : "Enrise room",
+            "room"      : "Combell room",
             "talkAbstract" : "The Dependency Injection (DI) pattern finally arrived in the PHP world. The major PHP frameworks provide support for DI in their latest releases. Many developers seem to be hooked by this programming pattern as it provides a good approach to create maintainable applications. This session will introduce the basics of the DI pattern to the audience as well as giving a brief overview about the current state of DI and give you some insights how you could make use of DI in your project.",
             "speakerBio": "Stephan Hochdörfer is co-founder and department manager of Research Labs at bitExpert AG in Mannheim, Germany. His primary focus is web development with PHP and generative programming techniques.",
             "speakerImage" : "resources/images/stephan-hochdorfer.jpg"
@@ -72,7 +72,7 @@
             "name"      : "Writing testable code",
             "time"      : "11:40 - 12:40",
             "speaker"   : "Tobias Schlitt",
-            "room"      : "Microsoft room",
+            "room"      : "Enrise room",
             "talkAbstract" : "Automated testing has become a standard in PHP projects, but writing code in a way that it is easily testable is a challenge. In this workshop we give you an insight into the secret of writing testable code and show you, how this relates essentially to good object orientation.",
             "speakerBio": "computer sience (German “diplom”) and works for more than 10 years in professional web projects on basis of PHP. As an open source enthusiast, he contributes to various community projects. Tobias is a co-founder of Qafoo GmbH (http://qafoo.com), which provides services all around high-quality PHP development. This includes for example consulting and training on quality assurance and professional programming, as well as technical support for several PHP QA tools.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/toby%20(10-14-11-06-21-08).jpeg"
@@ -81,7 +81,7 @@
             "name"      : "VIM + *nix Toolchain == PHP IDE",
             "time"      : "11:40 - 12:40",
             "speaker"   : "Matthew Weier O'Phinney",
-            "room"      : "Combell room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "There are dozens of IDEs available for PHP developers, each carving a niche with their unique features to support programmers. Those of us who want instant gratification and infinite flexibility, however, have other tools at our disposal: the *nix toolchain, and vim. Learn some basics of Vim, find out about several incredible plugins, and discover how to leverage the *nix paradigm of piping in order to build fantastic productivity on any platform.",
             "speakerBio": "Matthew is Project Lead for Zend Framework, and has been contributing to the project since before the initial preview release. He is an advocate for Open Source Software and regularly blogs and speaks on Zend Framework and PHP best practice topics.",
             "speakerImage" : "resources/images/matthew-weier-o-phinney.jpg"
@@ -90,7 +90,7 @@
             "name"      : "PHP Content Repository Specification",
             "time"      : "11:40 - 12:40",
             "speaker"   : "Lukas Kahwe Smith",
-            "room"      : "Enrise room",
+            "room"      : "Combell room",
             "talkAbstract" : "The PHPCR specification defines an API that combines the power of NoSQL databases with hierarchical data structures and versioning, powerful search and other features. Content repositories, like Midgard2 or Jackrabbit, can implement the API to provide generic access to their content. Using PHPCR, applications can focus on the application logic and use the API to quickly implement CMS functionality and choose from the solution that best fits their server requirements and scalability needs to handle final persistence.",
             "speakerBio": "Lukas spends most of his time playing with Symfony2 as well as pushing the PHPCR ecosystem and dabbeling in database technology in general. He also maintains several Symfony2 bundles. In the past he has co-managed the PHP 5.3 release, created the PEAR Group and developed several popular PEAR packages. When not coding he is busy beating up his body playing ultimate frisbee.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/me%20(10-10-11-11-09-21).jpg"
@@ -106,7 +106,7 @@
             "name"      : "Working successfully outside the cube",
             "time"      : "13:40 - 14:40",
             "speaker"   : "John Mertic",
-            "room"      : "Microsoft room",
+            "room"      : "Enrise room",
             "talkAbstract" : "There is a growing trend in the IT industry to have employees who work outside the confines of a traditional office. This enables companies to save money on office space and furniture, and be able to attract talent that is in a different geographical region than they are located in. But there are lots of challenges to this as well, such as being able to collaborate with remote workers and making them feel \"part of the team\", which can be challenging. In this talk, I'll draw upon my own personal experiences of being a \"cube\" worker and being a successful remote employee, and talk about the challenges and benefits and how to best implement this in your organization.",
             "speakerBio": "John Mertic is a software engineer at SugarCRM, and has several years of experience with PHP web applications. At SugarCRM, he has specialized in data integration, mobile and user interface architecture. An avid writer, he has been published in php|architect, IBM Developerworks, and in the Apple Developer Connector, and is the author of the book ‘The Definitive Guide to SugarCRM: Better Business Applications’. He has also contributed to many open source projects, most notably the PHP project where is the creator and maintainer of the PHP Windows Installer.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/headshot-130px%20(09-02-11-06-44-28).jpg"
@@ -115,7 +115,7 @@
             "name"      : "Doctrine 2: An Introduction",
             "time"      : "13:40 - 14:40",
             "speaker"   : "Juozas Kaziukėnas",
-            "room"      : "Combell room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "Doctrine is an enterprise object persistence layer for PHP 5.3.2+ that supports persisting PHP objects to relational databases like MySQL, Oracle, etc. and document based storage systems like MongoDB as well. Dive in head first and learn the Doctrine way in this workshop. From basics to best practices, performance optimization and legacy applications migration.",
             "speakerBio": "Juozas Kaziukėnas is a software developer and consultant from Lithuania, currently living in Edinburgh, UK where he is studying for a Computer Science degree. Having worked with web projects from small to enterprise size, he likes to share his experience at conferences worldwide and on his personal blog. Juozas also contributes to open source projects including Zend Framework and Doctrine, where his aim is to improve support for different environments such as Windows.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/profile3-box%20(10-10-11-02-20-51).jpg"
@@ -124,7 +124,7 @@
             "name"      : "PHP traits, treat or threat?",
             "time"      : "13:40 - 14:40",
             "speaker"   : "Nick Belhomme",
-            "room"      : "Enrise room",
+            "room"      : "Combell room",
             "talkAbstract" : "Start reducing complexity and start reusing sets of methods freely in several independent classes living in different class hierarchies with traits. Learn the semantics and start living in the future of PHP now!",
             "speakerBio": "professional web application development Nick Belhomme has contributed in a number of ways to the PHP Community. He is a domain-driven design enthusiast and his consulting focus is the design and construction of enterprise applications. Currently he works as an independent contractor and consults the PHP team at Belgium’s premium telecom operator Belgacom. He speaks and is frequently found at conferences. He authored several articles and currently is working on a book. In his spare time he likes to travel, take hikes with his lovely wife and loves nature.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/215607_1026599501317_1115172894_72956_3109_n%20(10-14-11-03-25-36).jpg"
@@ -133,7 +133,7 @@
             "name"      : "The lust for knowledge and experience",
             "time"      : "14:50 - 15:50",
             "speaker"   : "Marcel van Brakel",
-            "room"      : "Microsoft room",
+            "room"      : "Enrise room",
             "talkAbstract" : "No developer gets born with a senior developer status. But still we are all looking for experienced developers to strengthen our development teams. Experienced developers are turning out to be a rare resource, so you might have to settle with yet another junior within your team. Ho can you as a (lead) developer get the most out of even the least experienced team members and encourage them to grow at a fast pace.",
             "speakerBio": "For the last 10 years Marcel van Brakel is developing websites and applications in PHP. With a personal focus in Open Source PHP solutions and a business focus on tailor made web applications he get’s joy out of combining to best of both worlds. Besides programming, his professional interest lies in the dynamics of the development teams. How do developers work together, how do they communicate with the rest of the company and what can or should be improved. When not coding he can be found in the online console gaming communities, getting rid of frustration through some good old FPS.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/10/27423_100001120021246_8540_n%20(10-11-11-09-13-30).jpg"
@@ -142,7 +142,7 @@
             "name"      : "PHP in the Dark",
             "time"      : "14:50 - 15:50",
             "speaker"   : "Jeroen Keppens",
-            "room"      : "Combell room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "PHP in the Dark teaches you the dark secrets of php on the command line. The talk covers 4 topics: We start of with simple shell scripts: how to handle options and interactive input, output, but also how to layout them with newt and ncursus. Next we cover how to properly create daemons, avoid zombie scripts, use angel scripts and how to monitor your scripts. We then move to parallel processing and inter-process communication. Often wrongly referred to as multi-threading in php. Finally we'll talk about distribution strategies to offload your scripts to multiple servers using 0mq, gearman,...",
             "speakerBio": "Jeroen Keppens has been passionate about PHP and MySQL for over 10 years now. He has worked for various big online companies in the stock trading, gambling and telecom sector. The past few years, he held positions with mixed responsibilities as team leader, senior developer and scrum master. Jeroen is a Zend and Zend Framework Certified Engineer and certified MySQL5 developer. He likes to share his experiences with Zend Framework, MySQL, etc… on his blog.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/DSC_5340-small%20(09-09-11-09-48-57).png"
@@ -151,14 +151,14 @@
             "name"      : "Client-side Javascript Unit Testing",
             "time"      : "14:50 - 15:50",
             "speaker"   : "Tom Van Herreweghe",
-            "room"      : "Enrise room",
+            "room"      : "Combell room",
             "talkAbstract" : "As a PHP developer, you've probably had to deal with Javascript at some point in your career. Some of the Javascript code you've written may even have been pretty complex. What happens if you need to make some changes? Will it break existing functionality? The only way to really know if everything is still working, is by unit testing your Javascript. This talk will introduce you to QUnit for creating such Javascript unit tests which can run in any browser and to JsTestDriver for automatically running these tests across multiple browsers.",
             "speakerBio": "Tom is an all-round web developer with little over 10 years of experience between his first HTML page and his current position at DX-Solutions. He has a very strong passion (and preference) for anything PHP and Javascript related. Coming from an age without jQuery, he knows how to handle raw Javascript, and even finds pleasure in doing so. Tom is driven by a desire to constantly evolve and bring his skills to the next level. This brings him to conferences all around the world, and PHPBenelux meetings all around the country. When he’s disconnected from the Web, he enjoys practicing his Ju-Jitsu skills, listening to music and playing couch potato.",
             "speakerImage" : "http://conference.phpbenelux.eu/2012/wp-content/uploads/2011/09/mugshot%20(09-16-11-04-29-35).png"
         },
         {
             "name"      : "Break",
-            "time"      : "15:50 - 15:10",
+            "time"      : "15:50 - 16:10",
             "speaker"   : "PHPBenelux",
             "room"      : "Main Hall",
             "speakerImage" : "resources/images/phpbnl2012.png"

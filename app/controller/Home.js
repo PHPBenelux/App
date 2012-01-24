@@ -89,7 +89,7 @@ Ext.define('PhpBnl.controller.Home', {
         var title = Ext.util.Format.ellipsis(record.data.name,15,false);
         Ext.ComponentQuery.query('#sessionToolbar')[0].setTitle(title);
         Ext.ComponentQuery.query('#sessionDetail')[0].setData(record.data);
-        Ext.Viewport.setActiveItem(this.sessionView);
+        Ext.Viewport.setActiveItem(this.sessionView, {type: 'slide', direction: 'right'});
     },
 
     startPos: (new google.maps.LatLng(52.22, 4.53)),
