@@ -57,17 +57,19 @@ Ext.define('PhpBnl.controller.Home', {
     },
 
     onScheduleTabChange: function(component, options) {
-        var itemId = component.getItemId();
-        var proxyUrl = 'data/schedule' + itemId.toString() + '.json';
-        var scheduleProxy = this.getScheduleStore().getProxy();
-        scheduleProxy.url = proxyUrl;
-        this.getScheduleStore().load();
+        var itemId = component.getItemId(),
+            proxyUrl = 'data/schedule' + itemId.toString() + '.json',
+            scheduleStore = this.getScheduleStore(),
+            scheduleProxy = scheduleStore.getProxy();
+
+        scheduleProxy.setUrl(proxyUrl);
+        scheduleStore.load();
     },
 
     onAddTap: function() {
         var record = Ext.ComponentQuery.query('#sessionDetail')[0].getData();
         var tracklistStore = this.getTracklistStore();
-        console.log(tracklistStore);
+        
         tracklistStore.add(record);
         tracklistStore.sync();
         Ext.Msg.alert('Added the session to your tracklist');
