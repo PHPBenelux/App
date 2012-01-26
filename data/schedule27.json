@@ -1,6 +1,15 @@
 {
     "schedule": [
         {
+            "name"      : "Zend Framework 2",
+            "time"      : "09:00 - 12:30",
+            "speaker"   : "Matthew Weier O'Phinney",
+            "room"      : "Enrise room",
+            "talkAbstract" : "In this workshop, we'll explore Zend Framework 2, building a small application to demonstrate a number of its features. During the course of the workshop, we'll explore the new ZF2 MVC layer, the module manager, the EventManager, Dependency Injection, and more. Bring your laptops, and be prepared to follow along!",
+            "speakerBio": "Matthew is Project Lead for Zend Framework, and has been contributing to the project since before the initial preview release. He is an advocate for Open Source Software and regularly blogs and speaks on Zend Framework and PHP best practice topics.",
+            "speakerImage" : "resources/images/matthew-weier-o-phinney.jpg"
+        },
+        {
             "name"      : "Welcome & Registrations",
             "time"      : "08:30 - 09:00",
             "speaker"   : "PHPBenelux",
@@ -10,7 +19,7 @@
             "name"      : "Symfony 2",
             "time"      : "09:00 - 12:30",
             "speaker"   : "Fabien Potencier",
-            "room"      : "Enrise room",
+            "room"      : "Microsoft room",
             "talkAbstract" : "",
             "speakerBio": "Fabien Potencier discovered the Web in 1994, at a time when connecting to the Internet was still associated with the harmful strident sounds of a modem. Being a developer by passion, he immediately started to build websites with Perl. But with the release of PHP 5, he decided to switch focus to PHP, and created the symfony framework project in 2004 to help his company leverage the power of PHP for its customers. Fabien is a serial-entrepreneur, and among other companies, he created Sensio, a services and consulting company specialized in web technologies and Internet marketing, in 1998. Fabien is also the creator of several other Open-Source projects, a writer, a blogger, a speaker at international conferences, and a happy father of two wonderful kids.",
             "speakerImage" : "resources/images/fabien-potencier.jpg"
@@ -19,19 +28,10 @@
             "name"      : "Mobile for PHP",
             "time"      : "09:00 - 12:30",
             "speaker"   : "Ivo Jansch",
-            "room"      : "Microsoft room",
+            "room"      : "Combell room",
             "talkAbstract" : "Mobile is hot. If you’re building websites that don’t work on a mobile device, you’re missing out on an increasingly large target audience. Web consumption is no longer constrained to desktops and laptops, we have access to information from anywhere, anytime. In this tutorial Ivo will teach you the basics of optimizing websites for mobile devices such as phones and tablets. We will also look at the app side of things – creating APIs in PHP to access our information from native mobile apps and optimizing them to cope with the limits of mobile devices and wireless network connections.",
             "speakerBio": "Ivo Jansch is one of the founders of Egeniq.com, a mobile technology company based in Utrecht. He is one of the architects and developers of the Tiqr authentication application for Android and iPhone (http://tiqr.org). Ivo focuses on software architecture and best practices in mobile app development. He has authored 2 books and is a regular speaker at conferences (previous presentations and books can be found on http://www.jansch.nl).",
             "speakerImage" : "resources/images/ivo-jansch.jpg"
-        },
-        {
-            "name"      : "Zend Framework 2",
-            "time"      : "09:00 - 12:30",
-            "speaker"   : "Matthew Weier O'Phinney",
-            "room"      : "Combell room",
-            "talkAbstract" : "In this workshop, we'll explore Zend Framework 2, building a small application to demonstrate a number of its features. During the course of the workshop, we'll explore the new ZF2 MVC layer, the module manager, the EventManager, Dependency Injection, and more. Bring your laptops, and be prepared to follow along!",
-            "speakerBio": "Matthew is Project Lead for Zend Framework, and has been contributing to the project since before the initial preview release. He is an advocate for Open Source Software and regularly blogs and speaks on Zend Framework and PHP best practice topics.",
-            "speakerImage" : "resources/images/matthew-weier-o-phinney.jpg"
         },
         {
             "name"      : "HTML 5 for PHP Developers",
